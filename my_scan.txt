@@ -1,0 +1,38 @@
+# Nmap 7.97 scan initiated Thu Aug 21 14:26:07 2025 as: nmap -oN "C:\\Users\\Azubuike David\\Desktop\\my_scan.txt" 172.20.10.2
+Nmap scan report for 172.20.10.2
+Host is up (0.0012s latency).
+Not shown: 980 closed tcp ports (reset)
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+110/tcp  filtered pop3
+119/tcp  filtered nntp
+125/tcp  filtered locus-map
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+143/tcp  filtered imap
+445/tcp  open     microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+563/tcp  filtered snews
+587/tcp  filtered submission
+800/tcp  filtered mdbs_daemon
+903/tcp  filtered iss-console-mgr
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1025/tcp filtered NFS-or-IIS
+1122/tcp filtered availant-mgr
+1433/tcp filtered ms-sql-s
+5357/tcp open     wsdapi
+
+# Nmap done at Thu Aug 21 14:26:11 2025 -- 1 IP address (1 host up) scanned in 3.62 seconds
+
+Open ports, Services & Significance
+
+| Port | Service | Significance           |
+| ---- | ------- | ---------------------- |
+| 135  | msrpc   | Secure remote login    |
+| 139  | netbios-ssn| Web server access      |
+| 445  | microsoft-ds| Secure web server      |
+| 5357 | wsdapi     | File sharing (Windows) |
+
+
