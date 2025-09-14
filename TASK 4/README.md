@@ -20,4 +20,5 @@ Used to locate ready made exploits that can be used to attack the web server.
 Deliverables:
 
 1. nikto_scan_results.txt
+
 2. README.md
